@@ -1,0 +1,41 @@
+.TH HDFS "1" "December 2022" "hdfs 2.0.3" "User Commands"
+.SH NAME
+hdfs \- hdfs - HDFS client
+.SH SYNOPSIS
+.B hdfs
+\fI\,COMMAND\/\fR
+.SH DESCRIPTION
+.B hdfs
+aims to be an idiomatic HDFS client, enabling your favourite unix verbs. Flags available are a subset of the POSIX ones, but should behave similarly.
+.SH "OPTIONS"
+.SS "Valid commands:"
+.IP
+ls [\-lah] [FILE]...
+.IP
+rm [\-rf] FILE...
+.IP
+mv [\-fT] SOURCE... DEST
+.IP
+mkdir [\-p] FILE...
+.IP
+touch [\-amc] FILE...
+.IP
+chmod [\-R] OCTAL\-MODE FILE...
+.IP
+chown [\-R] OWNER[:GROUP] FILE...
+.IP
+cat SOURCE...
+.IP
+head [\-n LINES | \fB\-c\fR BYTES] SOURCE...
+.IP
+tail [\-n LINES | \fB\-c\fR BYTES] SOURCE...
+.IP
+du [\-sh] FILE...
+.IP
+checksum FILE...
+.IP
+get SOURCE [DEST]
+.IP
+getmerge SOURCE DEST
+.IP
+put SOURCE DEST
