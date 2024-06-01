@@ -1,5 +1,18 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-colinmarc-hdfs (2.3.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Re-upload after rejection (due to missing
+    golang-github-jcmturner-gokrb5.v8 at time of acceptance)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Matthew Vernon <matthew@debian.org>  Tue, 06 Dec 2022 23:15:25 +0000
+
+golang-github-colinmarc-hdfs (2.3.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1024442)
+  * Uploaded with the consent of Drew Parsons (who opened the ITP)
+  * Some build-deps still in NEW: golang-github-jcmturner-aescts.v2-dev,
+    golang-github-jcmturner-dnsutils.v2-dev,
+    golang-github-jcmturner-goidentity.v6-dev,
+    golang-github-jcmturner-rpc.v2-dev,
+    golang-github-jcmturner-gokrb5.v8-dev
+
+ -- Matthew Vernon <matthew@debian.org>  Mon, 05 Dec 2022 16:16:52 +0000

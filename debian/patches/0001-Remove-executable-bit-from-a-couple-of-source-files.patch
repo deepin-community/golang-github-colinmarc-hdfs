@@ -1,0 +1,17 @@
+From: Matthew Vernon <matthew@debian.org>
+Date: Mon, 5 Dec 2022 17:10:46 +0000
+Subject: Remove executable bit from a couple of source files
+
+---
+ cmd/hdfs/df.go   | 0
+ cmd/hdfs/main.go | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ mode change 100755 => 100644 cmd/hdfs/df.go
+ mode change 100755 => 100644 cmd/hdfs/main.go
+
+diff --git a/cmd/hdfs/df.go b/cmd/hdfs/df.go
+old mode 100755
+new mode 100644
+diff --git a/cmd/hdfs/main.go b/cmd/hdfs/main.go
+old mode 100755
+new mode 100644
