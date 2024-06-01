@@ -1,3 +1,9 @@
+golang-github-colinmarc-hdfs (2.3.0-2deepin1) unstable; urgency=medium
+
+  * Remove .gitignore and it's patch
+
+ -- xiangzelong <xiangzelong@deepin.org>  Sat, 01 Jun 2024 17:44:52 +0800
+
 golang-github-colinmarc-hdfs (2.3.0-2) unstable; urgency=medium
 
   * Re-upload after rejection (due to missing
